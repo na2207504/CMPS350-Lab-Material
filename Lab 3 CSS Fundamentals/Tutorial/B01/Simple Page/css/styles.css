@@ -5,16 +5,13 @@
 }
 
 .box {
-    width: 100px;
+    width: 80px;
     height: 100px;
     background-color: aqua;
     margin: 1rem;
+    display: inline-block;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* background-image: url("https://static5.gunfire.com/eng_pl_SA-H07-ONE-TM-Carbine-Replica-1152216912_2.webp"); */
-}
-
-.boxes {
-    display: flex;
 }
 
 .box:hover {
@@ -22,6 +19,10 @@
     /* width: 200px; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+/* ul {
+    display: flex;
+} */
 
 .fa.fa-car {
     color: red;
